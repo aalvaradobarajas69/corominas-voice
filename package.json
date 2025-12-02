@@ -1,0 +1,14 @@
+{
+  "name": "corominas-voice-realtime",
+  "version": "1.0.0",
+  "description": "Servidor WebSocket para conectar Twilio Media Streams con OpenAI Realtime",
+  "main": "voice-realtime.js",
+  "type": "module",
+  "scripts": {
+    "start": "node voice-realtime.js"
+  },
+  "dependencies": {
+    "ws": "^8.13.0",
+    "openai": "^4.28.0"
+  }
+}
